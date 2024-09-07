@@ -7,7 +7,7 @@ class AxiosApi {
     this.axiosInstance = axios.create();
   }
 
-  public getAxiosInstance() {
+  public getApiInstance() {
     return this.axiosInstance;
   }
 }
